@@ -26,5 +26,8 @@ setup(
     author_email='',
     license='http://unlicense.org/UNLICENSE',
     packages=['nested_dict'],
+    test_suite='nose.collector',
+    tests_require=['nose'],
     zip_safe=False
 )
+
